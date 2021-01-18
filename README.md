@@ -20,7 +20,6 @@ $ git clone https://github.com/z0x0z/AWS-cost-report.git aws-cost-report
 $ cd aws-cost-report  
   
 $ python3 cost-report.py
-
 ```
 
 ![](usage.gif)
