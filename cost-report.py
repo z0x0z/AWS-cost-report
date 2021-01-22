@@ -17,8 +17,8 @@ yr = int; mon1 =int; date = int; mon = str;
 print("Press 1 for current month Bill or Press 2 for specific mon/yr: "); 
 i = str(input())
 if i == '1':
-    yr = datetime.now().year
-    mon1 = datetime.now().month
+    yr = datetime.datetime.now().year
+    mon1 = datetime.datetime.now().month
 elif i == '2':
     yr = int(input("Enter the year in YYYY format:"))
     mon1 = int(input("Enter the month in MM format:")) 	#specify month b/w 01-12
